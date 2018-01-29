@@ -1,0 +1,71 @@
+
+.menu {
+    background:white;
+    width:970px;
+    
+    
+    position: relative;    
+    margin:1px auto;
+   
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+
+
+.nav>li>a {
+        background-color: #335599;
+        border-bottom: 100;
+        aling:center;
+        
+}
+
+.nav .caret {
+	border-top-color: white;
+}
+
+.dropdown a{
+	color: white;
+}
+
+.dropdown a:hover{
+	color: #335599;
+}
+
+
+
+.sidebar-nav {
+    padding: 9px 0;
+    
+    
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+    
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: center;
+    
+    
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+   
+    
+}
+

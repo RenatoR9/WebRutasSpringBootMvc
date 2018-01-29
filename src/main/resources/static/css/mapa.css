@@ -1,0 +1,15 @@
+html, body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		}
+		#mapa_content {
+			height: 100%;
+		}
+		@media print {
+			html, body {
+			height: auto;
+		}
+		#mapa_content {
+			height: 650px;
+		}

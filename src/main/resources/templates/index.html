@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+ 		<head>
+	     	<meta charset="UTF-8" />
+	      	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	      	
+	      	<title>BIENVENIDO(A)</title>
+	      
+       		  <!-- LINKS EXTERNAS -->
+		      <link rel="stylesheet prefetch" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"/>
+		  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  	  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+		  	 		  	  		  	  
+		  	  <!-- LINKS INTERNAS -->
+		  	  <link rel="stylesheet" th:href="@{/css/index.css}" type="text/css" media="screen"/>
+		      <link rel="stylesheet" th:href="@{/css/menu.css}" type="text/css" media="screen"/>
+		  </head>
+
+<!-- CUERPO DE LA PAGINA PRINCIPAL -->
+
+		  <body>
+		 	<header>
+				<!-- CABECERA -->
+			   	<div class="logotipo" th:include="encabezado"></div>
+				
+				<!-- MENU -->
+				<div class="menu" th:include="menu"></div>
+			</header>
+					
+				<!-- CONTENEDOR DE LA PAGINA -->
+				<div class="contenido" th:include="contenedor"></div>
+				
+				 <!-- PIE DE PAGINA -->
+				<div class="footer" th:include="footer"></div>
+		 				
+		  </body>		
+</html>

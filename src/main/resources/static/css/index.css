@@ -1,0 +1,49 @@
+html {
+	
+    height: 99%;
+	
+}
+
+body {
+    margin: 2px 2px 2px 2px;
+    background-color: red;
+    height: 100%;
+}
+
+.contenido{
+	width: 100%;
+	height: 77%;
+	background: white;
+	position: relative;
+	
+}
+
+.logotipo{
+	position: relative;
+	height: 13%;
+	background-color: #335599;
+	 
+}
+
+.logotipo span{
+	color: white;
+	font-size: 40px;
+	font-family: Arial Black;
+	text-align: center;
+	line-height: 110%;
+	
+}
+span{
+	color: white;
+	font-size: 40px;
+	font-family: Arial Black;
+}
+
+.footer{
+	width: 100%;
+	height: 4.5%;
+	background-color: red;
+	position: relative;
+	text-align: center;
+	color: #000;
+}
