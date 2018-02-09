@@ -8,7 +8,7 @@ public class StorageProperties {
     /**
      * Folder location for storing files
      */
-    private String location = "upload-dir";
+    private String location = "D:/Curso_spring_boot/Archivos/";
 
     public String getLocation() {
         return location;

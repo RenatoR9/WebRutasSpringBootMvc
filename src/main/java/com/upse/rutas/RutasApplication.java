@@ -5,6 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import com.upse.rutas.services.StorageService;
 import com.upse.rutas.storage.StorageProperties;
@@ -24,4 +27,6 @@ public class RutasApplication {
             storageService.init();
         };
 	}
+	
+	
 }
